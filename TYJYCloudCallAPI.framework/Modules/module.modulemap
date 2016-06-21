@@ -1,0 +1,6 @@
+framework module TYJYCloudCallAPI {
+  umbrella header "TYJYCloudCallAPI.h"
+
+  export *
+  module * { export * }
+}
