@@ -38,22 +38,35 @@ typedef void(^unBindingHandler)(NSInteger remain, NSString *returnMessage);
  */
 + (void)startWithAppkey:(NSString *)appKey;
 
-/** 设备主号绑定小号
+/** 双盲通话：设备主号绑定小号
  @param mainPhone 本机主叫号码
  @param calledPhone 被叫号码
- @param handle responseObject返回的信息,remain为0表示正常,为-1时表示异常,error为获取失败时的信息(ErrCode:KTCloudCallError)
+ @param handle remain为0表示正常,为-1时表示异常,message 返回错误提示
  @return void
  */
 + (void)bindingCloudPhone:(NSString *)mainPhone calledPhone:(NSString *)calledPhone response:(bindingHandler)handle;
 
-/** 设备主号解绑小号
+/** 双盲通话：设备主号解绑小号
  @param mainPhone 本机主叫号码
  @param calledPhone 被叫号码
- @param handle remain为0表示正常,为-1时表示异常,error为获取失败时的信息(ErrCode:KTCloudCallError)
+ @param handle remain为0表示正常,为-1时表示异常,message 返回错误提示
  @return void
  */
 + (void)unBindingCloudPhone:(NSString *)mainPhone calledPhone:(NSString *)calledPhone response:(unBindingHandler)handle;
 
+/** 隐私通话：设备主号绑定小号
+ @param mainPhone 本机主叫号码
+ @param handle remain为0表示正常,为-1时表示异常,message 返回错误提示
+ @return void
+ */
++ (void)bindingCloudPhone:(NSString *)mainPhone response:(bindingHandler)handle;
+
+/** 隐私通话：设备主号解绑小号
+ @param mainPhone 本机主叫号码
+ @param handle remain为0表示正常,为-1时表示异常,message 返回错误提示
+ @return void
+ */
++ (void)unBindingCloudPhone:(NSString *)mainPhone response:(unBindingHandler)handle;
 
 
 
