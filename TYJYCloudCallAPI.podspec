@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'TYJYCloudCallAPI'
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = 'TYJYCloudCallAPI is call SDK.'
   s.license      = 'MIT'
   s.author       = { "wudanfeng" => "182420281@qq.com" }

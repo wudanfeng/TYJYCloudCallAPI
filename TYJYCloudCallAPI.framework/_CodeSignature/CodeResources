@@ -8,9 +8,13 @@
 		<data>
 		XC6wwAEEqSTVvOS3DbCCbAHGc74=
 		</data>
+		<key>Headers/TEnterprise51Phone.h</key>
+		<data>
+		iThw2hUiUyH8EELTnB/UmYyrj24=
+		</data>
 		<key>Headers/TYJYCloudCallAPI.h</key>
 		<data>
-		IYy0/pjnfQoSyX+a6V9zl6LK8qE=
+		oxCO4cx65xoSGcWxO7Ux4B29sx8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,15 +38,26 @@
 			zYvm6JyKi8AkV8DNfl93f9rDehDprvlI2gigkc196Fs=
 			</data>
 		</dict>
+		<key>Headers/TEnterprise51Phone.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iThw2hUiUyH8EELTnB/UmYyrj24=
+			</data>
+			<key>hash2</key>
+			<data>
+			NQDGw6czdHdAwb6RfeIhvPhLcJtX/Ti33VsXrWE8zfk=
+			</data>
+		</dict>
 		<key>Headers/TYJYCloudCallAPI.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IYy0/pjnfQoSyX+a6V9zl6LK8qE=
+			oxCO4cx65xoSGcWxO7Ux4B29sx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			7QyiRXUHvlDv+16PJhs10Gs9s4ujE009hKQRFShlgpk=
+			Bj2Clg1QCwzwJx93zPGmvvQJsZ3owhd4KrrsVyIoG7g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
